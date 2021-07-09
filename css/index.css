@@ -12,3 +12,14 @@ body {
   width: 50px;
 }
 
+/*PHONE SIZE*/
+@media (max-width: 767px){
+  main{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
